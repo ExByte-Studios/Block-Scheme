@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T14:01:17.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JNvradmFF_6ejUi01EfK" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T14:01:48.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rkqbNkpwjABME2mY0O3H" version="20.5.1" type="github">
   <diagram id="sOrYWuCvnMkhS9OWmjsb" name="Page-1">
     <mxGraphModel dx="1069" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,6 +67,12 @@
         </mxCell>
         <mxCell id="bNryISlXJPOM0R4JPXQo-22" value="Recieve Messages to Player" style="whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="30" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-25" target="bNryISlXJPOM0R4JPXQo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-25" value="PLAYER INFO IN LOBBY" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="60" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
