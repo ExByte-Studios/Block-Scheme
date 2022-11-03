@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T13:53:48.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.1" etag="YZjsZ0qbaFOUQbohNDHa" type="github"><diagram id="sOrYWuCvnMkhS9OWmjsb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-03T14:00:32.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3M7oPSmyGM5dJsaOX5Zb" version="20.5.1" type="github">
+  <diagram id="sOrYWuCvnMkhS9OWmjsb" name="Page-1">
+    <mxGraphModel dx="1550" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bNryISlXJPOM0R4JPXQo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontColor=#FF0B03;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-1" target="bNryISlXJPOM0R4JPXQo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-1" value="&lt;u&gt;&lt;font color=&quot;#ff0b03&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;=CHAT MANAGER=&lt;/font&gt;&amp;nbsp;&lt;/font&gt;&lt;/u&gt;&lt;br&gt;- Local Player Name&lt;br&gt;- Prefab with Messages.&lt;br&gt;- Prefab with Content with messages." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650.0000000000002" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-4" value="Get Player Name and Text Information to Prefab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-7" target="bNryISlXJPOM0R4JPXQo-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-7" value="Spawn Prefab" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-8" target="bNryISlXJPOM0R4JPXQo-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-8" target="bNryISlXJPOM0R4JPXQo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-8" value="CONTENT WITH MESSAGES" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-12" value="On Lobby Exit - clean local Content" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-15" target="bNryISlXJPOM0R4JPXQo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-15" target="bNryISlXJPOM0R4JPXQo-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="470" />
+              <mxPoint x="210" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-15" value="IF MESSAGE = BOT?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontColor=#000000;size=20;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="bNryISlXJPOM0R4JPXQo-18" target="bNryISlXJPOM0R4JPXQo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-18" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-19" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="535" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bNryISlXJPOM0R4JPXQo-22" value="Recieve Messages to Player" style="whiteSpace=wrap;html=1;fontColor=#000000;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="30" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
